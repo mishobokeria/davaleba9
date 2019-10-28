@@ -194,9 +194,16 @@
 .pic{
 	border: 2px solid #EE4036;
 	padding: 55px;
+	width: 100%;
 }
-.pic:nth-child(2){
+.image-wraper:nth-child(2) .pic{
 	padding: 105px 70px;
+}
+.image-wraper h5{
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #EE4036;
+	font-family: 'Roboto', sans-serif;
 }
 .team{
 	text-transform: uppercase;
@@ -204,6 +211,9 @@
 	color: #EE4036;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 40px;
+}
+.guy{
+	width: 100%;
 }
 
 /*end about page*/
@@ -273,6 +283,23 @@
        	margin-left: 40px;
        }
 }
+
+@media (max-width: 1024px){
+	.d-flex{
+		flex-wrap: wrap;
+	}
+	.image-wraper:nth-child(3){
+		width: 100%;
+		
+
+	}
+	/*.image-wraper:nth-child(3) .pic{
+		height: 300px;
+	}*/
+
+}
+
+
 
 /*end media*/
 
